@@ -1,0 +1,30 @@
+*{
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#beerList{
+  display: flex;
+}
+
+.beers{
+  width: 250px;
+  height: 600px;
+  background-color: #007c9d;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beers h2, h3, p{
+  padding: 10px;
+}
+
+#beerList{
+  position: absolute;
+}
